@@ -1,0 +1,12 @@
+[submodule "openembedded-core"]
+	path = openembedded-core
+	url = https://github.com/openembedded/openembedded-core
+	branch = kirkstone
+[submodule "bitbake"]
+	path = bitbake
+	url = https://github.com/openembedded/bitbake
+	branch = 2.0
+[submodule "meta-yocto"]
+	path = meta-yocto
+	url = git://git.yoctoproject.org/meta-yocto/
+	branch = kirkstone
