@@ -55,9 +55,9 @@ if ${colorful_on} ; then
 	fi
 	
 	alias ls='ls --color=auto'
-	alias grep='grep --colour=auto'
-	alias egrep='grep -E --colour=auto'
-	alias fgrep='grep -F --colour=auto'
+	alias grep='grep --color=auto'
+	alias egrep='grep -E --color=auto'
+	alias fgrep='grep -F --color=auto'
 else
 	# Show root username when we don't have colors.
 	PS1+='\u@\h \w \$ '
