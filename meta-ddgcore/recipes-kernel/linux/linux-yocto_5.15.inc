@@ -1,0 +1,10 @@
+FILESEXTRAPATHS:prepend := "${THISDIR}/linux-yocto_5.15:"
+
+KMACHINE:amd ?= "common-pc-64"
+SRCREV_meta:amd ?= "947149960e1426ace478e4b52c28a28ef8d6e74b"
+LINUX_VERSION:amd = "5.15.36"
+LINUX_VERSION_EXTENSION:amd ?= "-amd-${LINUX_KERNEL_TYPE}"
+
+COMPATIBLE_MACHINE = "${MACHINE}"
+
+INC_PR := "r0"
